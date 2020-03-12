@@ -12,7 +12,7 @@ end
 def print_first_directors_movie_titles
   counter = 0
   while counter < directors_database.length do
-    puts "Film #{counter} is #{films[counter][:title]}"
+    puts "#{directors_database[counter][:title]}"
     counter +=1
   end
 end
