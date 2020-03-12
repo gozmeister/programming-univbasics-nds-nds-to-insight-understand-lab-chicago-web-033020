@@ -12,4 +12,4 @@ end
 def print_first_directors_movie_titles
 end
 
-directors_database
+pretty_print_nds(directors_database)
